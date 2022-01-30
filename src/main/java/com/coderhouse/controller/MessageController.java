@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/heroku")
+@RequestMapping("/proyecto-java-123")
 public class MessageController {
 
     Logger logger = LogManager.getLogger(MessageController.class);
