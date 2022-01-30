@@ -23,8 +23,8 @@ public class MessageController {
 
     @GetMapping("/get")
     public String getHeroku() {
-        logger.info("GET Hello, World");
-        return "Hello, World";
+        logger.info("Prueba de Heroku");
+        return "Prueba de Heroku andando";
     }
 
     @GetMapping("/mensajes/example")
